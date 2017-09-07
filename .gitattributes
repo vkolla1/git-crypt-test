@@ -1,0 +1,5 @@
+#.gitattributes
+
+.gitattributes !filter !diff
+
+infrastructure/scripts/* filter=git-crypt diff=git-crypt
